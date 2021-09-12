@@ -15,7 +15,9 @@ After some ☕ and some 🍎 this is the outcome.
 # Installation: 
 > There is nothing to install in here.
 
-If you want to test this project you will to download the .html, .js, and .css files to your computer. Additionally, you will require to go to https://www.mapbox.com/, register and generate an Access Token. This access need to be inserted in the .js file at: mapboxgl.accessToken = '<<INSERT ACCESS TOKEN HERE>>'.
+If you want to test this project you will to download the .html, .js, and .css files to your computer. 
+
+Additionally, you will require to go to https://www.mapbox.com/, register and generate an Access Token. This access need to be inserted in the .js file at: mapboxgl.accessToken = '<<INSERT ACCESS TOKEN HERE>>'.
 
 # Usage: 
 > Once you have your access token included in the .js file you only require to open the .html file and click on the big button at the top left portion of the webpage.
