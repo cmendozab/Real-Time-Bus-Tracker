@@ -27,7 +27,9 @@ If you want to test this project you will to download the .html, .js, and .css f
 Additionally, you will require to go to https://www.mapbox.com/, register and generate an Access Token. This access need to be inserted in the .js file at: mapboxgl.accessToken = '<<INSERT ACCESS TOKEN HERE>>'.
 
 # Usage: 
-> Once you have your access token included in the .js file you only require to open the .html file and click on the big button at the top left portion of the webpage.
+> Make sure you have already included your own ACESS TOKEN from MapBox from the previous step.
+
+Once you have your access token included in the .js file you only require to open the .html file and click on the big button at the top left portion of the webpage.
 
 # Support: 
 > For additional support below is my email. Include the title in your email "Help Animated Map Tracker".
