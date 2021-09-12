@@ -12,7 +12,7 @@ A more appropiate name would be Tracker Map Animation.
 # Description: 
 > Short project description. 
 
-In this project, it is shown a travel route starting from Cancun, Mexico and going to several cities / countries in South America. This is am exercise of map animation. 
+In this project, it is shown a travel route starting from Cancun, Mexico and going to several cities / countries in South America. This is an exercise of map animation. 
 
 An animated red icon is displayed and moved along the map to indicate each position. The animation starts after you click the button on the top portion of the map/screen.
 If you want to watch the animation again then reload the page and click the button again.
