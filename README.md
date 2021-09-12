@@ -5,12 +5,19 @@ This is a repository on GitHub.
 After some ☕ and some 🍎 this is the outcome.
 
 # Name:
-> Real-Time-Tracker. 
+> Real-Time-Bus-Tracker. 
+
+A more appropiate name would be Tracker Map Animation.
 
 # Description: 
-> In this project, it is shown a travel route starting from Cancun, Mexico and going to several cities / countries in South America. This is am exercise of map animation. An animated red icon is displayed and moved along the map to indicate each position. The animation starts after you click the button on the top portion of the map/screen.
-> If you want to watch the animation again then reload the page and click the button again.
-> IT is recommended to view the map in full screen size for better experience.
+> Short project description. 
+
+In this project, it is shown a travel route starting from Cancun, Mexico and going to several cities / countries in South America. This is am exercise of map animation. 
+
+An animated red icon is displayed and moved along the map to indicate each position. The animation starts after you click the button on the top portion of the map/screen.
+If you want to watch the animation again then reload the page and click the button again.
+
+It is recommended to view the map in full screen size for better experience.
 
 # Installation: 
 > There is nothing to install in here.
