@@ -27,6 +27,8 @@ I also changed the color of the button, its text, and font size as well as its b
 If you want to test this project you will to download the .html, .js, and .css files to your computer. 
 
 Additionally, you will require to go to https://www.mapbox.com/, register and generate an Access Token. This access need to be inserted in the .js file at: mapboxgl.accessToken = '<<INSERT ACCESS TOKEN HERE>>'.
+  
+Once this has been completed, you only need to click on the .html file and click on the big button on the map to start the animation.
 
 # Usage: 
 > Make sure you have already included your own ACESS TOKEN from MapBox from the previous step.
