@@ -48,4 +48,4 @@ In the future I would like to add real-time data to maps.
 # License information: 
 > MIT License
 
-***Pending information.***
+***For more information click on the "LICENSE" file in this repository***
