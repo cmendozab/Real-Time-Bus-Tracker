@@ -7,19 +7,17 @@ After some ☕ and some 🍎 this is the outcome.
 # Name:
 > Real-Time-Bus-Tracker. 
 
-A more appropiate name would be Tracker Map Animation.
+Week 9 from Full-Stack Web Development Programming Certificate (MERN) from MIT xPro.
 
 # Description: 
 > Short project description. 
 
-In this project, it is shown a travel route starting from Cancun, Mexico and going to several cities / countries in South America. This is an exercise of map animation. The animation is thus depicting a travel from different countries. 
+In this project, it is shown a map and a blue pointer moving from MIT to Harvard University.
 
-An animated red icon is displayed and moved along the map to indicate each position. The animation starts after you click the button on the top portion of the map/screen.
-If you want to watch the animation again then reload the page and click the button again. In here, the icon has been also changed from its original blue color.
+An animated blue icon is displayed and moved along the map to indicate each position. The animation starts after you click the button on the top portion of the map/screen.
+If you want to watch the animation again then reload the page and click the button again. 
 
 It is recommended to view the map in full screen size for better experience.
-
-I also changed the color of the button, its text, and font size as well as its background color.
 
 # Installation: 
 > There is nothing to install in here.
