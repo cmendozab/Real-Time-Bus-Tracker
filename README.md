@@ -4,10 +4,11 @@ This is a repository on GitHub.
 
 After some ☕ and some 🍎 this is the outcome.
 
+Week 9 from Full-Stack Web Development Programming Certificate (MERN) from MIT xPro.
+
 # Name:
 > Real-Time-Bus-Tracker. 
 
-Week 9 from Full-Stack Web Development Programming Certificate (MERN) from MIT xPro.
 
 # Description: 
 > Short project description. 
