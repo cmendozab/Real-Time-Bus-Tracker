@@ -1,42 +1,45 @@
-// This array contains the coordinates for several cities / countries.
+// This array contains the coordinates for all bus stops between MIT and Harvard
 const busStops = [
-  [-86.87235862789244, 21.041954042478693],
-  [-90.53182978808131, 14.59521198267536],
-  [-74.0425, 3.8231],
-  [-78.6235, 0.0742],
-  [-71.0048, -33.2228],
-  [-58.4455, -34.6102],
-  [-46.7257, -23.5664],
-  [-86.87235862789244, 21.041954042478693]
+  [-71.093729, 42.359244],
+  [-71.094915, 42.360175],
+  [-71.0958, 42.360698],
+  [-71.099558, 42.362953],
+  [-71.103476, 42.365248],
+  [-71.106067, 42.366806],
+  [-71.108717, 42.368355],
+  [-71.110799, 42.369192],
+  [-71.113095, 42.370218],
+  [-71.115476, 42.372085],
+  [-71.117585, 42.373016],
+  [-71.118625, 42.374863],
 ];
 
-// Add your own access token
-mapboxgl.accessToken = 'pk.eyJ1IjoiY21lbmRvemFiIiwiYSI6ImNrdGdoODJmcjBpZTkydnBpaGtiMnRqamMifQ.UFJpDjRHO73H7X_F0NXk9g';
+// TODO: add your own access token
+mapboxgl.accessToken = 'pk.eyJ1IjoiY21lbmRvemFiIiwiYSI6ImNrdGdoaThwaTBpOXgydXBuN3U2b3F2aWMifQ.Ien4WXWzfBaqWMWe2ohhVQ';
 
 // This is the map instance
 let map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/mapbox/streets-v11',
-  center: [-77.04550626681687, -12.038586056772019],
-  zoom: 3,
+  center: [-71.104081, 42.365554],
+  zoom: 14,
 });
 
-// Add a marker to the map at the first coordinates in the array busStops. The marker variable should be named "marker"
+// TODO: add a marker to the map at the first coordinates in the array busStops. The marker variable should be named "marker"
 
-var marker = new mapboxgl.Marker({color: '#F84C4C'}).setLngLat([-86.87235862789244, 21.041954042478693]).addTo(map)   //Nota: No colocar ; después de esta instrucción
-//var marker = new mapboxgl.Marker().setLngLat([-90.5749, 14.5403]).addTo(map)   //Nota: No colocar ; después de esta instrucción
-
+var marker = new mapboxgl.Marker()
+.setLngLat([-71.093729, 42.359244])    //Nota: No colocar ; después de esta instrucción
+.addTo(map)   //Nota: No colocar ; después de esta instrucción
 
 // counter here represents the index of the current bus stop
 let counter = 0;
 function move() {
-  // Move the marker on the map every 1000ms. Use the function marker.setLngLat() to update the marker coordinates
+  // TODO: move the marker on the map every 1000ms. Use the function marker.setLngLat() to update the marker coordinates
   // Use counter to access bus stops in the array busStops
   // Make sure you call move() after you increment the counter.
   setTimeout(() => {
     if(counter >= busStops.length){return}; 
     marker.setLngLat(busStops[counter]);
-    console.log(busStops[console]);
     counter++;
     move();
   }, 1000);
